@@ -12,7 +12,7 @@ public interface PersonService {
 
 	Person editPerson(Person person);
 
-	String deletePerson(Person persona);
+	Person deletePerson(int personId);
 	
 	Person addPersonToParty(Person person);
 	
